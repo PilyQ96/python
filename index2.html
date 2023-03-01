@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto_final.CV</title>
+    <link rel="stylesheet" href="C:\Users\Usuario\Desktop\python\proyecto\style1.css">
+    <link rel="stylesheet" href="C:\Users\Usuario\Desktop\python\proyecto\style2.css">
+    <link rel="stylesheet" href="C:\Users\Usuario\Desktop\python\proyecto\style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <!-- Opengraf -->
+    <meta name="description" content="proyecto_final_cv" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="proyecto_final_cv">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="proyecto_final_cv" />
+    <meta property="og:type" content="Cv falso" />
+    <meta property="og:url" content=" http://www.example.com" />
+    <meta property="og:image" content=" http://example.com/image.jpg" />
+    <meta property="og:description" content="Descripcion" />
+   
+   
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="barra_tope">
+            <a href="#" class="logo">
+                <img id="logotipo" src="C:\Users\Usuario\Desktop\python\proyecto\foto_cv.jpg" alt="logotipo">
+                <div>
+                    PHQ <br/> 
+                    Desarrollo full stack
+                </div>
+            </a>
+            <button class="AbrirMenu" aria-label="Abrir_Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="menu">
+                <button class="CerrarMenu" aria-label="Cerrar_Menu">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                </button>
+                <li><a href="#Inicio">INICIO</a></li>
+                <li><a href="#Experiencia">EXPERIENCIA</a></li>
+                <li><a href="#Contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="Perfil_Inicio" id="Inicio">
+        <div class="perfil_detalles">
+            <h1 class="titulo_perfil">Hola, soy <br/> <span id="nombre_perfil">Pilar Haydee Quinteros</span>            
+            </h1>
+            <p class="texto1">sLorem ipsum dolor sit amet consectetur adipisicing.
+                 Autem consequatur officia esse quo inventore aspernatur.
+                quam consectetur laboriosam tempora vero aut molestiae!
+            <button class="Dowload" type="button">Decargar CV</button>
+        </div>
+        <div class="perfil_imagen">
+            <img src="C:\Users\Usuario\Desktop\python\proyecto\foto_cv.jpg" alt="mi foto del curriculum">
+        </div>
+    </section>
+    <section class="Experiencias" id="Experiencia">
+        <h1 class="tituloe">Experiencias</h1>
+        <article class="item1">
+            <div class="periodo1">
+                <h2>
+                    2015-2017
+                </h2>
+            </div>
+            <div class="trabajo1">
+                <h1>
+                    Puesto de trabajo
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Minus nulla provident sit quidem quasi nostrum id culpa? Officia blanditiis,</p>
+            </div>
+        </article>
+        <article class="item2">
+            <div class="periodo2">
+                <h2>
+                    2018-2020
+                </h2>
+            </div>
+            <div class="trabajo2">
+                <h1>
+                    Puesto de trabajo
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Minus nulla provident sit quidem quasi nostrum id culpa? Officia blanditiis,
+                    !</p>
+            </div>
+        </article>
+    </section>
+    <section class="Contacto" id="Contacto">
+        <h1>CONTACTO</h1>
+        <div class="detalles_contacto1">
+            <h2 class="Direccion">Dirección</h2>
+            <p class="direccion_texto">Calle Falsa 123, Cordoba, Argentina</p>
+        </div>
+        <div class="detalles_contacto2">
+            <h2 class="Email">Email</h2>
+            <p class="Email_texto">fake123@gmail.com</p>
+        </div>
+        <div class="detalles_contacto3">
+            <p class="comentario">Envie un mensaje, con gusto responderé</p>
+        </div>
+        <form class="formulario_contacto" method="post">
+            <div class="datos_contacto">
+                <label for="Nombre"></label>
+                <input type="text" name="Nombre" id="nombre" placeholder="ingrese su nombre" required/>
+            </div>
+            <div class="datos_contacto">
+                <label for="E-mail"></label>
+                <input type="email" name="E-mail" id="email" placeholder="ingrese su mail"required/>
+            </div>
+            <div class="datos_contacto">
+                <label for="Mensaje"></label>
+                <textarea class="Mensaje" id="mensaje" rows="6" placeholder="escriba su mensaje"></textarea>
+            </div>
+            <input id="submit" type="submit" class="Formulario_de_contacto" value="Enviar" required/>   
+        </form>
+        <nav class="redes_sociales">
+            <ul class="lista_redes">
+                <li>
+                    <a href="https://twitter.com/?lang=es"></a>
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/"></a>
+                    <i class="fa-brands fa-facebook"></i>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/"></a>
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/login/es"></a>
+                    <i class="fa-brands fa-linkedin"></i>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <script src="https://kit.fontawesome.com/67826f602a.js" crossorigin="anonymous"></script>
+    <script src="C:\Users\Usuario\Desktop\python\proyecto\javascrip1.js"></script>
+</body>
+</html>
